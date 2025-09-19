@@ -50,14 +50,14 @@ class WeatherFeatcher:
         params = {
             "latitude": latitude,
             "longitude": longitude,
-            "current_weather": True,
+            "current": ["temperature_2m", "weathercode"],
         }
         responses = openmeteo.weather_api(self.weather_api, params=params)
         response = responses[0]
 
         current = response.Current()
         temp = current.Variables(0).Value()
-        weathercode = current.Variables(3).Value()
+        weathercode = current.Variables(1).Value()
 
         condition = self.weather_map.get(weathercode, "Unknown")
 
