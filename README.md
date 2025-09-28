@@ -22,10 +22,12 @@ Not a real City<br>
 <img width="456" height="120" alt="image" src="https://github.com/user-attachments/assets/b3426cdf-76b6-499c-a444-8c160c165c04" />
 
 ## Usage
+Install dependency first  
 ```bash
 pip install -r requirements.txt
 ```
-
+<br>
+And run using  
 ```bash
 python weatherapp.py
 ```
