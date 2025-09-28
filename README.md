@@ -1,4 +1,4 @@
-<img width="298" height="100" alt="image" src="https://github.com/user-attachments/assets/40a99196-bedf-4ec3-a2f1-702c4413cb68" /># Weather CLI App
+# Weather CLI App
 
 A simple Python CLI Weather App that fetches the current weather using Open-Meteo's API
 and **Geopy** for retrieving latitude/longitude
@@ -14,8 +14,12 @@ and **Geopy** for retrieving latitude/longitude
 - Open-Meteo API
 - Requests (with caching & retries)
 
-## 
+## Screenshot
+Correct usage
 <img width="298" height="100" alt="image" src="https://github.com/user-attachments/assets/28d9b3dc-4ef5-43f1-8763-4bc4cef2bc4e" />
+
+Not a real City
+<img width="456" height="120" alt="image" src="https://github.com/user-attachments/assets/b3426cdf-76b6-499c-a444-8c160c165c04" />
 
 ## Usage
 ```bash
