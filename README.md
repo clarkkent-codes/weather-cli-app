@@ -26,7 +26,6 @@ Install dependency first
 ```bash
 pip install -r requirements.txt
 ```
-<br>
 And run using  
 ```bash
 python weatherapp.py
